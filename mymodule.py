@@ -14,3 +14,5 @@ return weather["main"]["temp"] - 273.15
 if __name__ == "__main__":
 degrees = get_weather("OSLO")
 print("Weather in Oslo is %.2f degrees Celsius" % degrees)
+
+# this is a new addition
